@@ -7,16 +7,13 @@
 </head>
 <body>
     <form method="get">
-        ทีม1 :<input type="text" name="t1">
-        </br>
-        ทีม2 :<input type="text" name="t2">
-        </br>
+        ทีม1 :<input type="text" name="t1"></br>
+        ทีม2 :<input type="text" name="t2"></br>
         <input type="submit" value="ตกลง">
     </form>
     <?php
     $t1 = $_GET['t1'];
     $t2 = $_GET['t2'];
-
     if ($t1 > $t2) {
         echo "ทีม1 ชนะ";
     }
